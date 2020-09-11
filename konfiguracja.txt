@@ -1,0 +1,33 @@
+1. Zainstaluj JSON server.
+>> npm install -g json-server
+
+2. Przygotuj plik JSON o przykładowej nazwie db.json.
+
+3. Uruchom JSON server wykorzystujac przygotowany wczesniej plik.
+>> json-server --watch db.json --port 8080
+
+4. Kilka ważnych uwag.
+
+5. Od tej pory mozesz wykonywac rozne requests.
+
+GET    -> http://localhost:8080/teams
+GET    -> http://localhost:8080/teams/1
+POST   -> http://localhost:8080/teams
+PUT    -> http://localhost:8080/teams/1
+PATCH  -> http://localhost:8080/teams/1
+DELETE -> http://localhost:8080/teams/1
+
+GET    -> http://localhost:8080/app-info
+POST   -> http://localhost:8080/app-info
+PUT    -> http://localhost:8080/app-info
+PATCH  -> http://localhost:8080/app-info
+
+GET    -> http://localhost:8080/teams?id=1
+GET    -> http://localhost:8080/teams?id=1&id=2
+GET    -> http://localhost:8080/players?team.name=TEAM A
+GET    -> http://localhost:8080/teams?_page=0&_limit=2
+GET    -> http://localhost:8080/teams?_sort=points&_order=desc
+
+6. Wiecej w dokumentacji
+https://www.npmjs.com/package/json-server
+

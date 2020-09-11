@@ -1,0 +1,61 @@
+{
+  "app-info": {
+    "author": "KM",
+    "version": "1.0"
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "TEAM A",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "name": "TEAM B",
+      "points": 20
+    },
+    {
+      "id": 3,
+      "name": "TEAM B",
+      "points": 30
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "PLAYER A",
+      "goals": 100,
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "name": "PLAYER B",
+      "goals": 200,
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "name": "PLAYER C",
+      "goals": 300,
+      "teamId": 1
+    },
+    {
+      "id": 4,
+      "name": "PLAYER D",
+      "goals": 400,
+      "teamId": 2
+    },
+    {
+      "id": 5,
+      "name": "PLAYER E",
+      "goals": 500,
+      "teamId": 2
+    },
+    {
+      "id": 6,
+      "name": "PLAYER F",
+      "goals": 600,
+      "teamId": 3
+    }
+  ]
+}
